@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+}
+
+.form-group .required .control-label:after {
+  content:"(Required)";
+  color:red;
+}
+small{
+    display: block;
+}
+
+input {
+    max-width: 250px;
+}
+
+textarea {
+    max-width: 250px;
+}
